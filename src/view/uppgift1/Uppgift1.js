@@ -1,9 +1,11 @@
 import React from 'react'
+import { Introduktion } from "../../components/Introduktion";
 
 export const Uppgift1 = () => {
 	return (
 		<div>
 			<h1>Uppgift 1</h1>
+			<Introduktion firstName="Johanna" lastName="Hailemichael" course="JavaScript Fullstack"/>
 		</div>
 	)
 }
